@@ -1,0 +1,136 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,500;1,400&display=swap");
+
+#main {
+  display: flex;
+  justify-content: center;
+}
+
+#innerfirst {
+  font-family: "Montserrat", sans-serif;
+  background-color: white;
+  border-radius: 5% 0% 0% 5%;
+  height: auto;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.3);
+  width: 600px;
+}
+
+#innersecond {
+  font-family: "Montserrat", sans-serif;
+  background-color: #6ec1e3;
+  border-radius: 0% 5% 5% 0%;
+  height: auto;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.3);
+  width: 600px;
+}
+
+input {
+  height: 45px;
+  width: 500px;
+  border: solid 1px;
+  border-radius: 6px;
+  background-color: #f7f7f7;
+  font-family: "Montserrat", sans-serif;
+}
+
+textarea {
+  width: 500px;
+  border: solid 1px;
+  border-radius: 6px;
+  background-color: #f7f7f7;
+  font-family: "Montserrat", sans-serif;
+}
+
+button {
+  width: 200px;
+  height: 50px;
+  background-color: #283a5c;
+  color: white;
+  border: solid 0px;
+  border-radius: 6px;
+  font-size: 15px;
+  font-family: "Montserrat", sans-serif;
+  margin-bottom: 40px;
+}
+
+form {
+  margin-top: 30px;
+  margin-left: 50px;
+}
+
+::placeholder {
+  padding: 15px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 15px;
+}
+
+h1 {
+  color: #283a5c;
+  font-weight: 700;
+  font-family: "Montserrat", sans-serif;
+}
+
+img {
+  filter: brightness(0) invert(1);
+  line-height: 10px;
+}
+
+h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+}
+
+p {
+  font-size: 15px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.contact-info {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  margin-left: 100px;
+}
+
+.contact-info img {
+  margin-right: 10px;
+}
+
+.info-text {
+  display: flex;
+  flex-direction: column;
+}
+
+.info-text h2 {
+  margin: 0;
+}
+
+.info-text p {
+  margin: 0;
+}
+
+h2,
+p {
+  font-family: "Montserrat", sans-serif;
+  color: white;
+  line-height: 30px;
+}
+#contact-info {
+  margin-top: 60px;
+}
+
+#header {
+  background-image: url(images/header.png);
+  height: 350px;
+}
+
+#header h1 {
+  font-size: 70px;
+  font-weight: bold;
+  text-align: center;
+  padding-top: 120px;
+  color: white;
+}
+
+#below-contact {
+  margin-top: 120px;
+}
